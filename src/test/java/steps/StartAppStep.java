@@ -1,6 +1,6 @@
 package steps;
 
-import screens.LoginScreen;
+import Screens.LoginScreen;
 import config.BaseTest;
 import io.cucumber.java.en.Given;
 
