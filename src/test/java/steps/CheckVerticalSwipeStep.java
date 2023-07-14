@@ -1,6 +1,6 @@
 package steps;
 
-import Screens.VerticalSwipingScreen;
+import screens.VerticalSwipingScreen;
 import io.cucumber.java.en.Then;
 import utils.Assertions;
 import utils.ElementUtils;
