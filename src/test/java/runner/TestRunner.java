@@ -18,7 +18,7 @@ import java.util.List;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/maven-cucumber-report/cucumber.html",
+        plugin = {"pretty", "html:test-output",
                 "json:target/cucumber-report/cucumber.json",
                 "de.monochromata.cucumber.report.PrettyReports:target/cucumber"},
         features = {"src/test/resources/features/"},
@@ -37,27 +37,9 @@ public class TestRunner{
         configuration.setBuildNumber("07");
         configuration.addClassifications("Platform", "Android");
         configuration.addClassifications("Branch", "release/1.x");
-//        configuration.getSortingMethod(SortingMethod.NATURAL);
         configuration.addPresentationModes(PresentationMode.EXPAND_ALL_STEPS);
         configuration.setTrendsStatsFile(new File("target/test-classes/demo-trends.json"));
         ReportBuilder reportBuilder=new ReportBuilder(jsonFiles,configuration);
         Reportable result=reportBuilder.generateReports();
     }
 }
-//@CucumberOptions(
-//        plugin = {"json:target/test-results/test-results.json", "pretty"},
-//        features = {"classpath:features"},
-//        glue = {"classpath:steps"},
-//        format = {"pretty", "html:test_output"}
-//)
-//public class TestRunner extends AbstractTestNGCucumberTests {
-//    @Override
-//    @DataProvider(parallel = true)
-//    public Object[][] scenarios() {
-//        return super.scenarios();
-//    }
-//    @BeforeClass
-//    public void setThreadCount(ITestContext context) {
-//        context.getCurrentXmlTest().getSuite().setDataProviderThreadCount(1);
-//    }
-//}

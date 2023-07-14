@@ -17,7 +17,6 @@ public class AndroidModule {
 
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
-//        caps.setCapability("app", config.getString("user.dir") + config.getString("env.beta.app-path"));
         caps.setCapability("app",  "/Users/sergii.myslovskyi/Documents/Projects/tui/tui/apk/appiumChallenge.apk");
         caps.setCapability("appPackage", "");
         caps.setCapability("noReset", false);
@@ -26,7 +25,6 @@ public class AndroidModule {
         caps.setCapability("udid", "emulator-5554");
         caps.setCapability("newCommandTimeout", 9999);
         caps.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, "true");
-//        caps.setCapability("appWaitActivity", "*");
 
         try {
             appiumDriver = new AndroidDriver(new URL("http://0.0.0.0:4723" + "/wd/hub"), caps);
