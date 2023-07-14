@@ -1,6 +1,6 @@
 package steps;
 
-import screens.WheelPickerScreen;
+import Screens.WheelPickerScreen;
 import io.cucumber.java.en.Then;
 import utils.Assertions;
 
