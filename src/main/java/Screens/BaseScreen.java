@@ -1,4 +1,4 @@
-package screens;
+package Screens;
 
 import config.AndroidModule;
 import io.appium.java_client.AppiumDriver;
