@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testPackage1.class1test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.339 s - in testPackage1.class1test

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: uitests.checkMainCategoriesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.885 s <<< FAILURE! - in uitests.checkMainCategoriesTest
+checkCategoriesTest(uitests.checkMainCategoriesTest)  Time elapsed: 0.338 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy9.proxyClassLookup()
+	at uitests.checkMainCategoriesTest.checkCategoriesTest(checkMainCategoriesTest.java:11)
+Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy9.proxyClassLookup()
+	at uitests.checkMainCategoriesTest.checkCategoriesTest(checkMainCategoriesTest.java:11)
+
