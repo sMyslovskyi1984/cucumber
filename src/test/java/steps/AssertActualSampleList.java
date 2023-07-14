@@ -1,6 +1,6 @@
 package steps;
 
-import screens.HomeScreen;
+import pages.HomeScreen;
 import io.cucumber.java.en.Then;
 import utils.Assertions;
 import utils.ElementUtils;
