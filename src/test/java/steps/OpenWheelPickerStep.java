@@ -1,6 +1,6 @@
 package steps;
 
-import pages.HomeScreen;
+import screens.HomeScreen;
 import io.cucumber.java.en.When;
 
 public class OpenWheelPickerStep {

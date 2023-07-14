@@ -1,6 +1,6 @@
 package steps;
 
-import pages.LoginScreen;
+import screens.LoginScreen;
 import io.cucumber.java.en.When;
 
 public class LoginStep {
