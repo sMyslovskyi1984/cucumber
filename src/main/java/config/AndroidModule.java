@@ -17,7 +17,7 @@ public class AndroidModule {
 
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("app",  "/Users/sergii.myslovskyi/Documents/Projects/tui/tui/apk/appiumChallenge.apk");
+        caps.setCapability("app",  "apk/appiumChallenge.apk");
         caps.setCapability("appPackage", "");
         caps.setCapability("noReset", false);
         caps.setCapability("fullReset", true);
